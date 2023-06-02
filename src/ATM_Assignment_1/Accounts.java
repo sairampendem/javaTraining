@@ -1,4 +1,4 @@
-package javaTraining_Assignment_1;
+package ATM_Assignment_1;
 
 public class Accounts
 {

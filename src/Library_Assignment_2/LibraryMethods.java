@@ -1,4 +1,4 @@
-package javaTraining_Library_Assignment_2;
+package Library_Assignment_2;
 
 
 public class LibraryMethods 
