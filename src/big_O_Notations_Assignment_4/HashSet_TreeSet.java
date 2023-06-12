@@ -70,9 +70,5 @@ public class HashSet_TreeSet
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
 		System.out.println("*********************************************");
 
-
-
 	}
-
-
 }
