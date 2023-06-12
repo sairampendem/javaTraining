@@ -1,4 +1,4 @@
-package big_O_Notations_Assignment4;
+package big_O_Notations_Assignment_4;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -27,8 +27,10 @@ public class ArrayList_LinkedList
 				}
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("ArrayList insetion time: "+ (endTime - startTime) + " ns");
 				System.out.println("ArrayList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 				System.out.println(" ");
 				
 		//ArrayList remove
@@ -37,8 +39,10 @@ public class ArrayList_LinkedList
 					arrayList.remove(1000);
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("ArrayList deletion time: "+ (endTime - startTime) + " ns");
 				System.out.println("ArrayList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 				System.out.println(" ");
 				
 		//ArrayList get element
@@ -47,8 +51,10 @@ public class ArrayList_LinkedList
 					arrayList.get(6000);
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("ArrayList get element time: "+ (endTime - startTime) + " ns");
 				System.out.println("ArrayList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 				System.out.println(" ");
 				
 		//LinkedList insertion
@@ -60,8 +66,10 @@ public class ArrayList_LinkedList
 				}
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("LinkedList insetion time: "+ (endTime - startTime) + " ns");
 				System.out.println("LinkedList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 				System.out.println(" ");
 				
 		//LinkedList remove
@@ -70,8 +78,10 @@ public class ArrayList_LinkedList
 					linkedList.add(8000);
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("LinkedList deletion time: "+ (endTime - startTime) + " ns");
 				System.out.println("LinkedList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 				System.out.println(" ");
 				
 		//LinkedList get element
@@ -80,7 +90,9 @@ public class ArrayList_LinkedList
 					linkedList.get(4000);
 				memoryAfter = getMemoryUsage();
 				endTime = System.nanoTime();
+				System.out.println("*********************************************");
 				System.out.println("LinkedList get element time: "+ (endTime - startTime) + " ns");
 				System.out.println("LinkedList memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+				System.out.println("*********************************************");
 	}
 }

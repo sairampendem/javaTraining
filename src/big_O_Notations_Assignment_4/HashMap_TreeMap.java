@@ -1,4 +1,4 @@
-package big_O_Notations_Assignment4;
+package big_O_Notations_Assignment_4;
 
 import java.util.HashMap;
 import java.util.TreeMap;
@@ -26,8 +26,10 @@ public class HashMap_TreeMap
 		}
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("HashMap insetion time: "+ (endTime - startTime) + " ns");
 		System.out.println("HashSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//HashMap remove element
@@ -36,8 +38,10 @@ public class HashMap_TreeMap
 		hashMap.remove(20000);
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("HashMap remove element time: "+ (endTime - startTime) + " ns");
 		System.out.println("HashSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//HashMap get element
@@ -46,8 +50,10 @@ public class HashMap_TreeMap
 		hashMap.get(23456);
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("HashMap get element time: "+ (endTime - startTime) + " ns");
 		System.out.println("HashSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//TreeMap insertion
@@ -59,8 +65,10 @@ public class HashMap_TreeMap
 		}
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("TreeSet insetion time: "+ (endTime - startTime) + " ns");
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//TreeMap remove element
@@ -69,8 +77,10 @@ public class HashMap_TreeMap
 		treeMap.remove(4000);
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("TreeSet remove element time: "+ (endTime - startTime) + " ns");
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//TreeMap get element
@@ -79,9 +89,10 @@ public class HashMap_TreeMap
 		treeMap.get(900);
 		endTime = System.nanoTime();
 		memoryAfter = getMemoryUsage();
+		System.out.println("*********************************************");
 		System.out.println("TreeSet get element time: "+ (endTime - startTime) + " ns");
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
-
+		System.out.println("*********************************************");
 	}
 
 }

@@ -1,4 +1,4 @@
-package big_O_Notations_Assignment4;
+package big_O_Notations_Assignment_4;
 
 import java.util.HashSet;
 import java.util.TreeSet;
@@ -26,8 +26,10 @@ public class HashSet_TreeSet
 		}
 		memoryAfter = getMemoryUsage();
 		endTime = System.nanoTime();
+		System.out.println("*********************************************");
 		System.out.println("HashSet insetion time: "+ (endTime - startTime) + " ns");
 		System.out.println("HashSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//HashSet remove element
@@ -36,8 +38,10 @@ public class HashSet_TreeSet
 		hashSet.remove(2000);
 		memoryAfter = getMemoryUsage();
 		endTime = System.nanoTime();
+		System.out.println("*********************************************");
 		System.out.println("HashSet remove element time: "+ (endTime - startTime) + " ns");
 		System.out.println("HashSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//TreeSet insertion
@@ -49,8 +53,10 @@ public class HashSet_TreeSet
 		}
 		memoryAfter = getMemoryUsage();
 		endTime = System.nanoTime();
+		System.out.println("*********************************************");
 		System.out.println("TreeSet insetion time: "+ (endTime - startTime) + " ns");
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
+		System.out.println("*********************************************");
 		System.out.println(" ");
 
 		//TreeSet remove element
@@ -59,9 +65,10 @@ public class HashSet_TreeSet
 		treeSet.remove(5678);
 		memoryAfter = getMemoryUsage();
 		endTime = System.nanoTime();
+		System.out.println("*********************************************");
 		System.out.println("TreeSet remove element time: "+ (endTime - startTime) + " ns");
 		System.out.println("TreeSet memory usage: "+ (memoryAfter - memoryBefore) + " bytes");
-		System.out.println(" ");
+		System.out.println("*********************************************");
 
 
 
