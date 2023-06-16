@@ -16,7 +16,7 @@ public class Accounts
 
 		balance = 0;
 
-		transactions = new double[100];
+		transactions = new double[100];;;;;;;;
 
 		transactionCount = 0;
 
