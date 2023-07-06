@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Users 
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 
 		Transaction ts=new Transaction();
 		Scanner sc;
@@ -22,17 +23,20 @@ public class Users
 
 			switch(choice) 
 			{
-				case 1: {
+			case 1: 
+			{
 				ts.account();
 				break;
 			}
 
-			case 2: {
+			case 2: 
+			{
 				ts.login_account();
 				break;
 			}
 
-			case 3: {
+			case 3: 
+			{
 				System.out.println("Good bye thanks for your coperation...");
 				break;
 			}
@@ -48,8 +52,6 @@ public class Users
 		sc.close();
 
 	}
-
-
 
 }
 

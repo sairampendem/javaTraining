@@ -13,7 +13,8 @@ public class LibraryMethods
 	private String[] patronNames;
 	private int totalPatrons;
 
-	public LibraryMethods() {
+	public LibraryMethods() 
+	{
 		bookTitles = new String[MAX_BOOKS];
 		bookCopies = new int[MAX_BOOKS];
 		totalBooks = 0;
@@ -51,7 +52,8 @@ public class LibraryMethods
 		}
 	}
 
-	public void borrowBook(String title) {
+	public void borrowBook(String title) 
+	{
 		int bookIndex = findBookIndex(title);
 		if (bookIndex == -1) 
 		{
@@ -74,7 +76,8 @@ public class LibraryMethods
 	public void returnBook(String title) 
 	{
 		int bookIndex = findBookIndex(title);
-		if (bookIndex == -1) {
+		if (bookIndex == -1) 
+		{
 			System.out.println("Book not found in the library.");
 			System.out.println("---------------------------->");
 		} else 

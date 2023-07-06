@@ -11,42 +11,36 @@ public class Transaction
 	int choice;
 
 	public void account() 
-	{	
+	{
+
 		System.out.println("Enter your account number");
-
 		int account_no=sc.nextInt();
-
 		ac.setAccount_num(account_no);
-
 		System.out.println("Enter your pin number");
-
 		int pin=sc.nextInt();
-
 		ac.setPin(pin);
-
 		System.out.println("Enter the balance");
-
 		int balance=sc.nextInt();
-
 		ac.setBalance(balance);
 
 		System.out.println(ac.getAccount_num());
 
 		System.out.println(ac.getBalance());
-		
+
 		System.out.println(ac.getPin());
 
 	}
 
 
-
-	public void login_account() {
+	public void login_account() 
+	{
 
 		System.out.println("Enter the account number");
 
 		int account_no=sc.nextInt();
 
-		if(account_no==ac.getAccount_num()) {
+		if(account_no==ac.getAccount_num()) 
+		{
 
 			System.out.println("Enter the pin number");
 
@@ -112,15 +106,11 @@ public class Transaction
 
 		}else
 		{
-
 			System.out.println("Account number is Invalid");
 		}
 
 		//sc.close();
-
 	}
-
-
 
 }
 
