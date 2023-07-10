@@ -1,4 +1,4 @@
-package big_O_Notations_Assignment_4;
+package TimeSpaceComplexity_Assignment_4;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

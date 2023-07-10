@@ -1,4 +1,4 @@
-package Library_Assignment_2;
+package LibraryManagement_Assignment_2;
 import java.util.Scanner;
 
 
